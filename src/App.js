@@ -65,7 +65,7 @@ export default function App() {
             <Grid item xs={12} sm={6}>
                 <Grid container justify="center" alignItems="center" className={classes.heightAdapt}>
                     <Grid item  className={classes.widthProp}>
-                            <Box className={classes.boxFlex}>
+                            <Box className={classes.boxFlex} mt={4}>
                                 <Typography variant="h5" className={classes.headingColor}><ReactTypingEffect speed="100" eraseDelay="1250" typingDelay="100" text={["Ambadi Ritik","Developer","Designer"]}/></Typography>
                             </Box>
                             <Box mt={2}>
